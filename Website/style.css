@@ -1,36 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Poppins&display=swap');
 
-.topnav {
-    background-color: rgb(7, 42, 91);
+nav {
+    background-color:  #146ab0;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 8vh;
 }
 
-.topnav a {
+.heading {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.nav_links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav_links a {
     float: right;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-  }
+}
   
-  .topnav a:hover {
-    background-color: #ddd;
+.nav_links a:hover {
+    background-color: #ec9d65;
     color: black;
-  }
+}
   
-.topnav a.active {
+.nav_links a.active {
     background-color: #c14b07;
     color: white;
-  }
+}
 
 body {
     background-color: #93CDFB ;
     font-family: 'Maven Pro', sans-serif;
 }
 
-h4 {
-    margin: 30px;
+h3 {
+    margin: 50px;
 }
 
 h1 {
@@ -50,11 +67,6 @@ p {
     margin-left: 100px;
 }
 
-.heyClass {
-    color: red;
-}
-
-
 section{
     /*
     display: flex;
@@ -62,7 +74,7 @@ section{
     justify-content: center;
     align-items: center;*/
     height: 60vh;
-    color:white;
+    color:rgb(255, 255, 255);
     margin: 100px;
     
 }
