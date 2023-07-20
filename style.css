@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Poppins&display=swap');
 
 nav {
-    background-color:  #8cc0ff;
+    background-color:  #1d3c6d;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -24,11 +24,12 @@ nav {
 
 .nav_links a {
     float: right;
-    color: rgb(7, 42, 91);
+    color: #FFFFFF;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    border-radius: 12px;
 }
   
 .nav_links a:hover {
@@ -37,17 +38,13 @@ nav {
 }
   
 .nav_links a.active {
-    background-color: #c14b07;
+    background-color: #bf5658;
     color: white;
 }
 
 body {
-    background-color:#d9efff;
+    background-color: #1d3c6d ;
     font-family: 'Maven Pro', sans-serif;
-}
-
-h3 {
-    margin: 50px;
 }
 
 h1 {
@@ -55,6 +52,14 @@ h1 {
     margin: 50px;
 }
 
+h3 {
+    margin: 50px;
+    font-size: 50px;
+}
+
+h4 {
+    margin-right: 50px;
+}
 
 img {
     width: 400px;
@@ -66,7 +71,7 @@ img {
 
 button {
     margin-left: 100px;
-    background-color:#c14b07;
+    background-color:#bf5658;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -74,7 +79,13 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border-radius: 12px;
 }
+
+p {
+    margin-left: 100px;
+}
+
 
 section{
     /*
@@ -83,7 +94,7 @@ section{
     justify-content: center;
     align-items: center;*/
     height: 60vh;
-    color: rgb(7, 42, 91);
+    color:white;
     margin: 100px;
     
 }
