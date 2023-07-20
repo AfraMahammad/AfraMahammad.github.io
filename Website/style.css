@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Poppins&display=swap');
 
 nav {
-    background-color:  #146ab0;
+    background-color:  #8cc0ff;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -24,7 +24,7 @@ nav {
 
 .nav_links a {
     float: right;
-    color: #f2f2f2;
+    color: rgb(7, 42, 91);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -33,7 +33,7 @@ nav {
   
 .nav_links a:hover {
     background-color: #ec9d65;
-    color: black;
+    color: #0a3d66;
 }
   
 .nav_links a.active {
@@ -42,7 +42,7 @@ nav {
 }
 
 body {
-    background-color: #93CDFB ;
+    background-color:#d9efff;
     font-family: 'Maven Pro', sans-serif;
 }
 
@@ -60,11 +60,20 @@ img {
     width: 400px;
     float: right;
     border-radius: 50%;
-    margin-left: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
-p {
+button {
     margin-left: 100px;
+    background-color:#c14b07;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 section{
@@ -74,7 +83,7 @@ section{
     justify-content: center;
     align-items: center;*/
     height: 60vh;
-    color:rgb(255, 255, 255);
+    color: rgb(7, 42, 91);
     margin: 100px;
     
 }
