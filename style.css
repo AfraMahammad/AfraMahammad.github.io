@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Poppins&display=swap');
+
+nav {
+    background-color:  #8cc0ff;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 8vh;
+}
+
+.heading {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.nav_links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav_links a {
+    float: right;
+    color: rgb(7, 42, 91);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.nav_links a:hover {
+    background-color: #ec9d65;
+    color: #0a3d66;
+}
+  
+.nav_links a.active {
+    background-color: #c14b07;
+    color: white;
+}
+
+body {
+    background-color:#d9efff;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+h3 {
+    margin: 50px;
+}
+
+h1 {
+    text-align: left;
+    margin: 50px;
+}
+
+
+img {
+    width: 400px;
+    float: right;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+button {
+    margin-left: 100px;
+    background-color:#c14b07;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+section{
+    /*
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;*/
+    height: 60vh;
+    color: rgb(7, 42, 91);
+    margin: 100px;
+    
+}
+
